@@ -1,168 +1,239 @@
 <!doctype html>
 <html lang=fr>
-    <head>
-        <meta charset="utf-8" />
-        <style>
-            form {
-                display: flex;
-                justify-content: center;
-                margin: 10px;
-            }
-            h1 {
-                font-size: xx-large;
-            }
-            h2 {
-                font-size: large;
-            }
-            h3 {
-                font-size: medium;
-                line-height: 0.5;
-            }
-            p, ul {
-                font-size: small;
-            }
-            span {
-                font-size: smaller;
-            }
-            a {
-                color: white;
-            }
-            #main {
-                display: flex;
-                max-width: 50em;
-                min-width: 30em;
-                border-color: rgb(73, 78, 95);
-                border-width: 2px;
-                border-style: solid;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                margin: auto;
-            }
-            #leftCol {
-                color: white;
-                max-width: 12.5em;
-                background-color: rgb(73, 78, 95);
-                padding: 2em;
-            }
-            #leftCol h1, #leftCol h2 {
-                color: rgb(255, 231, 212);
-            }
-            #rightCol {
-                color:rgb(73, 78, 95);
-                padding: 2em;
-            }
-            #rightCol h2 {
-                border-color: rgb(73, 78, 95);
-                border-width: 1px;
-                border-style: solid;
-                background-color: rgb(255, 231, 212);
-                text-align: center;
-            }
-        </style>
-        <title>CV - Benjamin Picard</title>
-    </head>
-    <body>
-        <div id="main">
-            <div id="leftCol">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+        h1 {
+            font-size: xx-large;
+        }
+        h2 {
+            font-size: large;
+        }
+        h3 {
+            font-size: medium;
+            margin: 0;
+        }
+        p {
+            margin-block: 0;
+        }
+        p, ul {
+            font-size: small;
+        }
+        span {
+            font-size: smaller;
+        }
+        #header a {
+            color: white;
+        }
+        #cols a {
+            color: black;
+        }
+        #main {
+            display: flex;
+            flex-direction: column;
+            max-width: 50em;
+            min-width: 25em;
+            border-color: #2b333c;
+            border-width: 2px;
+            border-style: solid;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: auto;
+        }
+        #cols {
+            display: flex;
+            flex-direction: row;
+        }
+        #leftCol {
+            flex: 4;
+            color: black;
+            background-color: white;
+            padding: 2em;
+        }
+        #rightCol {
+            flex: 2;
+            color: #323232;
+            background-color: #bfdaf0;
+            padding: 2em;
+        }
+        #header {
+            display: flex;
+            align-items: center;
+            background-color: #2b333c;
+            color: white;
+        }
+        #leftheader {
+            flex: 5;
+            padding-block: 1em;
+            padding-inline-start: 2em;
+        }
+        #rightheader {
+            flex: 2;
+        }
+        #leftCol h2 {
+            border-bottom-width: 2px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-style: solid;
+            border-bottom-color: #2b333c;
+            margin-block: 0.5em;
+        }
+        .item {
+            margin-block-end: 0.5em;
+        }
+        .date {
+            color: #3465a4;
+        }
+        .light {
+            color: #808080;
+        }
+    </style>
+    <title>CV - Benjamin Picard</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="leftheader">
                 <h1>Benjamin Picard</h1>
+                <h3>Développeur mobile - 23 ans</h3>
+            </div>
+            <div id="rightheader">
                 <p>
-                    Né le 31 Mars 1999
-                </p>
-                <br/>
-                <h2>COORDONNÉES</h2>
-                <p>
-                    20 rue Bayard, 63000,<br/>
-                    Clermont-Ferrand<br/>
-                    07 86 65 60 76<br/>
+                    +33 7 86 65 60 76<br/>
                     <a href="mailto: benjamin.picard0@gmail.com" target="_blank">benjamin.picard0@gmail.com</a><br/>
                     Github : <a href="https://github.com/BenjaminPcrd" target="_blank">/BenjaminPcrd</a><br/>
                     Linkedin : <a href="https://www.linkedin.com/in/benjaminpcrd/" target="_blank">/in/benjaminPcrd</a>
                 </p>
-                <br/>
-                <h2>APTITUDES</h2>
-                <ul>
-                    <li>Anglais niveau C1</li>
-                    <li>Brevet d’Aptitudes aux Fonctions d’Animateur</li>
-                    <li>Permis B, véhicule personnel</li>
-                </ul>
-                <br/>
-                <h2>CENTRES D’INTÉRÊT</h2>
-                <ul>
-                    <li>Escalade : voie et bloc, je pratique majoritairement en salle, mais avec une préférence pour l’extérieur</li>
-                    <li>Slackline</li>
-                    <li>Grande randonnée, bivouac</li>
-                    <li>Informatique, technologie</li>
-                </ul>
-                <br/>
-                <h2>COMPÉTENCES INFORMATIQUES</h2>
-                <p>
-                    Javascript – Java – Android Studio – React Native – React.js – Next.js – Firebase – Git – Linux
-                </p>
-            </div>
-            <div id="rightCol">
-                <div>
-                    <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
-                    <h3>Animateur périscolaire</h3>
-                    <p>
-                        École Jean de la Fontaine, Clermont-Ferrand | Février 2021 – Juillet 2022<br/>
-                        <span>Encadrement d’enfants du CP au CM2. Activités, jeux et aide aux devoirs</span>
-                    </p>
-                    <h3>Assistant de projet</h3>
-                    <p>
-                        The Robert Gordon University | Septembre 2019 – Mars 2020<br/>
-                        <span>Développement d'une application mobile au sein d’une équipe de développeurs (React Native, MongoDB et React.js)</span>
-                    </p>
-                    <h3>Stage en entreprise</h3>
-                    <p>
-                        The Robert Gordon University | Avril – Juin 2019<br/>
-                        <span>Gestion de projet et développement d’applications mobile (React Native)</span>
-                    </p>
-                    <h3>Animateur BAFA</h3>
-                    <p>
-                        Juillet 2017, 2018, 2019 & 2020<br/>
-                        <span>Animateur en accueil de loisirs et séjour de vacances. Encadrement d’enfants de 3 à 14 ans</span>
-                    </p>
-                </div>
-
-                <div>
-                    <h2>FORMATION</h2>
-                    <h3>Bachelor of Sciences | Computer science</h3>
-                    <p>
-                        The Robert Gordon University, Aberdeen (UK) | 2019 – 2020
-                    </p>
-                    <h3>DUT Informatique</h3>
-                    <p>
-                        IUT de Clermont-Ferrand | 2017 – 2019
-                    </p>
-                    <h3>Baccalauréat Scientifique</h3>
-                    <p>
-                        Lycée Pierre-Caraminot, Égletons (19) | 2016 – 2017<br/>
-                        <span>Option Sciences de l’Ingénieur, spécialité Informatique et Sciences du Numérique | Mention assez bien</span>
-                    </p>
-                </div>
-
-                <div>
-                </div>
-                    <h2>RÉALISATIONS</h2>
-                    <h3>Fitchat</h3>
-                    <p>
-                        Application mobile (React Native) utilisant diverses API (Google Fit, Firebase, Dialogflow).
-                    </p>
-                    <h3>Attendr App & Dashboard</h3>
-                    <p>
-                        Application mobile (React Native) permettant de gérer la présence en classe et interface web (React).
-                    </p>
-                    <h3>TheMovieDB Search App</h3>
-                    <p>
-                        Application mobile React Native (Expo) utilisant l’API de themoviedb.org.
-                    </p>
-                    <h3>Jeux JavaFX</h3>
-                    <p>
-                        Jeu d’arcade 2D type Frogger, réalisé en JavaFX.
-                    </p>
             </div>
         </div>
-        <form target="_blank" method="get" action="CV informatique - Benjamin Picard.pdf">
-            <button type="submit">Télécharger au format PDF</button>
-         </form>
-    </body>
+        <div id="cols">
+            <div id="leftCol">
+                <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+
+                <div class="item">
+                    <span class="date">Février 2021 – Juillet 2022</span>
+                    <h3>Animateur périscolaire <span class="light">Clermont-Ferrand</span></h3>
+                    <p>
+                        Encadrement d’enfants du CP au CM2. Activités, jeux et aide aux devoirs
+                    </p>
+                </div>
+
+                <div class="item">
+                    <span class="date">Octobre 2019 - Avril 2020</span>
+                    <h3>Assistant de projet <span class="light">Robert Gordon University, Aberdeen (UK)</span></h3>
+                    <p>
+                        Développement d'une application mobile au sein d’une équipe 
+                        <br><strong>Technologies : </strong>React Native, MongoDB et React.js
+                    </p>
+                </div>
+
+                <div class="item">
+                    <span class="date">Avril – Juin 2019</span>
+                    <h3>Stage en entreprise <span class="light">Robert Gordon University, Aberdeen (UK)</span></h3>
+                    <p>
+                        Gestion de projet et développement d’applications mobile 
+                        <br><strong>Technologies : </strong>React Native
+                    </p>
+                </div>
+
+                <div class="item">
+                    <span class="date">Juillet 2017, 2018, 2019 & 2020</span>
+                    <h3>Animateur BAFA</h3>
+                    <p>
+                        Animateur en accueil de loisirs et séjour de vacances. Encadrement d’enfants de 3 à 14 ans
+                    </p>
+                </div>
+
+                <h2>FORMATION</h2>
+
+                <div class="item">
+                    <span class="date">2019 – 2020</span>
+                    <h3>Bachelor of Computer science <span class="light">The Robert Gordon University, Aberdeen (UK)</span></h3>
+                </div>
+
+                <div class="item">
+                    <span class="date">2017 – 2019</span>
+                    <h3>DUT Informatique <span class="light">Clermont-Ferrand</span></h3>
+                </div>
+                
+                <div class="item">
+                    <span class="date">2016 – 2017</span>
+                    <h3>Baccalauréat Scientifique <span class="light">Lycée Pierre-Caraminot, Égletons (19)</span></h3>
+                    <p>
+                        Option Sciences de l’Ingénieur, spécialité Informatique et Sciences du Numérique. Mention assez bien
+                    </p>
+                </div>
+
+                <h2>RÉALISATIONS</h2>
+
+                <div class="item">
+                    <h3><a href="https://github.com/BenjaminPcrd/HipsAndKnees" target="_blank">HipsAndKnees</a></h3>
+                    <p>
+                        Application mobile permettant d’aider les personnes ayant des douleurs chronique, a les soulager, 
+                        en leur proposant des exercices en fonction de leur activité. 
+                        <br><strong>Technologies : </strong>React-native, Google Fit API, Dialogflow API, Firebase
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h3><a href="https://github.com/BenjaminPcrd" target="_blank">Attendr App & Dashboard</a></h3>
+                    <p>
+                        Applications mobile et interface web, permettant aux professeurs de gérer la présence des élèves en classe. 
+                        <br><strong>Technologies : </strong>React-native, React.js, MongoDb
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h3><a href="https://github.com/BenjaminPcrd/TmdbSearchApp" target="_blank">TheMovieDB Search App</a></h3>
+                    <p>
+                        Application mobile utilisant l’API de themoviedb.org permettant d’afficher des informations sur les films et d’en rechercher. 
+                        <br><strong>Technologies : </strong>React-native, Expo
+                    </p>
+                </div>
+            </div>
+
+            <div id="rightCol">
+                <h2>APTITUDES</h2>
+                <ul>
+                    <li>Anglais niveau B2, 7 mois passé en Écosse</li>
+                    <li>Brevet d’aptitudes aux fonctions d’animateur (BAFA)</li>
+                    <li>Permis B, véhicule personnel</li>
+                </ul>
+
+                <h2>COMPÉTENCES INFORMATIQUE</h2>
+                <h3>Langages & framework :</h3>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Typescript</li>
+                    <li>React-native</li>
+                    <li>React.js</li>
+                </ul>
+                <h3>Outils & logiciels</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Android Studio</li>
+                    <li>Firebase</li>
+                    <li>Git</li>
+                    <li>Linux</li>
+                </ul>
+
+                <h2>CENTRES D’INTÉRÊT</h2>
+                <ul>
+                    <li>Escalade (Voie, grande voie et bloc)</li>
+                    <li>Slackline</li>
+                    <li>Grande randonnée, bivouac</li>
+                    <li>Bricolage, DIY</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <form target="_blank" method="get" action="CV - Benjamin Picard.pdf">
+        <button type="submit">Télécharger au format PDF</button>
+        </form>
+</body>
 </html>
