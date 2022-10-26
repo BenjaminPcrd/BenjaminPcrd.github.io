@@ -1,0 +1,120 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+h1 {
+    font-size: xx-large;
+    margin: 0;
+}
+h2 {
+    font-size: large;
+}
+h3 {
+    font-size: medium;
+    margin: 0;
+}
+p {
+    margin-block: 0;
+}
+p, ul {
+    font-size: small;
+}
+span {
+    font-size: smaller;
+}
+#header a {
+    color: white;
+}
+#cols a {
+    color: black;
+}
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('./fonts/centurygothic/CenturyGothic.ttf') format('truetype');
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    max-width: 50em;
+    min-width: 25em;
+    border-color: #2b333c;
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Century Gothic', Arial, sans-serif;
+    margin: auto;
+}
+#cols {
+    display: flex;
+    flex-direction: row;
+}
+#leftCol {
+    flex: 4;
+    color: black;
+    background-color: white;
+    padding: 2em;
+}
+#rightCol {
+    flex: 2;
+    color: #323232;
+    background-color: #bfdaf0;
+    padding: 2em;
+}
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #2b333c;
+    color: white;
+    padding: 1.5em;
+}
+#leftheader {
+    flex: 6;
+    padding-block: 1em;
+    padding-inline-start: 2em;
+}
+#rightheader {
+    flex: 3;
+}
+#leftCol h2 {
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-bottom-color: #808080;
+    margin-block: 0.5em;
+}
+.item {
+    margin-block-end: 0.5em;
+}
+.date {
+    color: #3465a4;
+}
+.light {
+    color: #808080;
+}
+@font-face {
+    font-family: 'fontello';
+    src: url('./fonts/fontello/font/fontello.eot');
+    src: url('./fonts/fontello/font/fontello.eot') format('embedded-opentype'),
+        url('./fonts/fontello/font/fontello.woff') format('woff'),
+        url('./fonts/fontello/font/fontello.ttf') format('truetype'),
+        url('./fonts/fontello/font/fontello.svg') format('svg');
+    
+}
+i {
+    font-family: 'fontello';
+    font-weight: normal;
+    font-style: normal;
+}
+.contact-icon {
+    font-size: medium;
+}
+.title-icon {
+    font-size: x-large;
+    color: #3465a4;
+}
+.leftcol-icon {
+    font-size: x-large;
+    color: #323232;
+}

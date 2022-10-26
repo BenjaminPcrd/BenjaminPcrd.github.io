@@ -2,97 +2,7 @@
 <html lang=fr>
 <head>
     <meta charset="utf-8" />
-    <style>
-        form {
-            display: flex;
-            justify-content: center;
-            margin: 10px;
-        }
-        h1 {
-            font-size: xx-large;
-        }
-        h2 {
-            font-size: large;
-        }
-        h3 {
-            font-size: medium;
-            margin: 0;
-        }
-        p {
-            margin-block: 0;
-        }
-        p, ul {
-            font-size: small;
-        }
-        span {
-            font-size: smaller;
-        }
-        #header a {
-            color: white;
-        }
-        #cols a {
-            color: black;
-        }
-        #main {
-            display: flex;
-            flex-direction: column;
-            max-width: 50em;
-            min-width: 25em;
-            border-color: #2b333c;
-            border-width: 2px;
-            border-style: solid;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin: auto;
-        }
-        #cols {
-            display: flex;
-            flex-direction: row;
-        }
-        #leftCol {
-            flex: 4;
-            color: black;
-            background-color: white;
-            padding: 2em;
-        }
-        #rightCol {
-            flex: 2;
-            color: #323232;
-            background-color: #bfdaf0;
-            padding: 2em;
-        }
-        #header {
-            display: flex;
-            align-items: center;
-            background-color: #2b333c;
-            color: white;
-        }
-        #leftheader {
-            flex: 5;
-            padding-block: 1em;
-            padding-inline-start: 2em;
-        }
-        #rightheader {
-            flex: 2;
-        }
-        #leftCol h2 {
-            border-bottom-width: 2px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-style: solid;
-            border-bottom-color: #2b333c;
-            margin-block: 0.5em;
-        }
-        .item {
-            margin-block-end: 0.5em;
-        }
-        .date {
-            color: #3465a4;
-        }
-        .light {
-            color: #808080;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
     <title>CV - Benjamin Picard</title>
 </head>
 <body>
@@ -101,19 +11,20 @@
             <div id="leftheader">
                 <h1>Benjamin Picard</h1>
                 <h3>Développeur mobile - 23 ans</h3>
+                
             </div>
             <div id="rightheader">
                 <p>
-                    +33 7 86 65 60 76<br/>
-                    <a href="mailto: benjamin.picard0@gmail.com" target="_blank">benjamin.picard0@gmail.com</a><br/>
-                    Github : <a href="https://github.com/BenjaminPcrd" target="_blank">/BenjaminPcrd</a><br/>
-                    Linkedin : <a href="https://www.linkedin.com/in/benjaminpcrd/" target="_blank">/in/benjaminPcrd</a>
+                    <i class="contact-icon">&#xe800; </i>+33 7 86 65 60 76<br/>
+                    <i class="contact-icon">&#xf0e0; </i><a href="mailto: benjamin.picard0@gmail.com" target="_blank">benjamin.picard0@gmail.com</a><br/>
+                    <i class="contact-icon">&#xf09b; </i><a href="https://github.com/BenjaminPcrd" target="_blank">/BenjaminPcrd</a><br/>
+                    <i class="contact-icon">&#xf30c; </i><a href="https://www.linkedin.com/in/benjaminpcrd/" target="_blank">/in/benjaminPcrd</a>
                 </p>
             </div>
         </div>
         <div id="cols">
             <div id="leftCol">
-                <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+                <h2><i class="title-icon">&#xe801; </i>EXPÉRIENCES PROFESSIONNELLES</h2>
 
                 <div class="item">
                     <span class="date">Février 2021 – Juillet 2022</span>
@@ -149,7 +60,7 @@
                     </p>
                 </div>
 
-                <h2>FORMATION</h2>
+                <h2><i class="title-icon">&#xf19d; </i>FORMATION</h2>
 
                 <div class="item">
                     <span class="date">2019 – 2020</span>
@@ -169,7 +80,7 @@
                     </p>
                 </div>
 
-                <h2>RÉALISATIONS</h2>
+                <h2><i class="title-icon">&#xf0ca; </i>RÉALISATIONS</h2>
 
                 <div class="item">
                     <h3><a href="https://github.com/BenjaminPcrd/HipsAndKnees" target="_blank">HipsAndKnees</a></h3>
@@ -198,14 +109,14 @@
             </div>
 
             <div id="rightCol">
-                <h2>APTITUDES</h2>
+                <h2><i class="leftcol-icon">&#xf14a; </i>APTITUDES</h2>
                 <ul>
                     <li>Anglais niveau B2, 7 mois passé en Écosse</li>
                     <li>Brevet d’aptitudes aux fonctions d’animateur (BAFA)</li>
                     <li>Permis B, véhicule personnel</li>
                 </ul>
 
-                <h2>COMPÉTENCES INFORMATIQUE</h2>
+                <h2><i class="leftcol-icon">&#xf121; </i>COMPÉTENCES INFORMATIQUE</h2>
                 <h3>Langages & framework :</h3>
                 <ul>
                     <li>Javascript</li>
@@ -222,7 +133,7 @@
                     <li>Linux</li>
                 </ul>
 
-                <h2>CENTRES D’INTÉRÊT</h2>
+                <h2><i class="leftcol-icon">&#xf164; </i>CENTRES D’INTÉRÊT</h2>
                 <ul>
                     <li>Escalade (Voie, grande voie et bloc)</li>
                     <li>Slackline</li>
