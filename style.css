@@ -48,6 +48,12 @@ span {
     display: flex;
     flex-direction: row;
 }
+@media screen and (max-width: 800px) {
+    #cols {
+        flex-direction: column;
+    }
+  }
+  
 #leftCol {
     flex: 4;
     color: black;
@@ -68,12 +74,14 @@ span {
     padding: 1.5em;
 }
 #leftheader {
-    flex: 6;
+    flex: 2;
     padding-block: 1em;
     padding-inline-start: 2em;
+
 }
 #rightheader {
-    flex: 3;
+    flex: 1;
+    min-width: 14em;
 }
 #leftCol h2 {
     border-bottom-width: 2px;
