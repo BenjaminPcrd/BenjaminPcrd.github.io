@@ -52,7 +52,7 @@ span {
     #cols {
         flex-direction: column;
     }
-  }
+}
   
 #leftCol {
     flex: 4;
