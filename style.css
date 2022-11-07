@@ -48,12 +48,13 @@ span {
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 1024px) {*/
+@media all and (orientation: portrait) {
     #cols {
         flex-direction: column;
     }
 }
-  
+
 #leftCol {
     flex: 4;
     color: black;
