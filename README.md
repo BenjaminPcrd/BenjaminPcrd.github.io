@@ -1,6 +1,6 @@
 # Benjamin Picard
 
-## Développeur Frontend - 23 ans
+## Développeur Frontend - 24 ans
 - [Contact](#contact)
 - [EXPÉRIENCES PROFESSIONNELLES](#expériences-professionnelles)
     - [Développeur Frontend - Shaple Lyon (remote)](#développeur-frontend---shaple-lyon-remote)
@@ -9,10 +9,11 @@
     - [Stage en entreprise Robert Gordon University, Aberdeen (UK)](#stage-en-entreprise-robert-gordon-university-aberdeen-uk)
     - [Animateur BAFA](#animateur-bafa)
 - [FORMATION](#formation)
-    - [Bachelor of Computer science Robert Gordon University, Aberdeen (UK)](#bachelor-of-computer-science-robert-gordon-university-aberdeen-uk)
-    - [DUT Informatique Clermont-Ferrand](#dut-informatique-clermont-ferrand)
+    - [Bachelor of Computer science, Robert Gordon University, Aberdeen (UK)](#bachelor-of-computer-science-robert-gordon-university-aberdeen-uk)
+    - [DUT Informatique, IUT de Clermont-Ferrand (63)](#dut-informatique-iut-de-clermont-ferrand-63)
     - [Baccalauréat Scientifique Lycée Pierre-Caraminot, Égletons (19)](#baccalauréat-scientifique-lycée-pierre-caraminot-égletons-19)
 - [RÉALISATIONS](#réalisations)
+    - [Climbed](https://github.com/BenjaminPcrd/Climbed)
     - [FitChat](https://github.com/RGU-Computing/fitchat)
     - [Attendr App & Dashboard](https://github.com/BenjaminPcrd)
     - [TheMovieDB Search App](https://github.com/BenjaminPcrd/TmdbSearchApp)
@@ -66,11 +67,11 @@
 
 ## FORMATION
 
-### Bachelor of Computer science Robert Gordon University, Aberdeen (UK)
+### Bachelor of Computer science, Robert Gordon University, Aberdeen (UK)
 
 ***2019 - 2020***
 
-### DUT Informatique Clermont-Ferrand
+### DUT Informatique, IUT de Clermont-Ferrand (63)
 
 ***2017 - 2019***
 
@@ -81,6 +82,11 @@
 Option Sciences de l’Ingénieur, spécialité Informatique et Sciences du Numérique. Mention assez bien
 
 ## RÉALISATIONS
+
+### [Climbed](https://github.com/BenjaminPcrd/Climbed)
+
+Application mobile pour noter les voies d'escalade réalisées et avoir des statistiques.
+**Technologies :** React-native
 
 ### [FitChat](https://github.com/RGU-Computing/fitchat)
 
@@ -107,23 +113,21 @@ Application mobile utilisant l’API de themoviedb.org permettant d’afficher d
 
 ### Langages & framework
 
-- Javascript
-- Typescript
-- React-native
-- React.js
+- Javascript & Typescript
+- React & React-native
+- HTML, CSS, Bootstrap
 
 ### Outils & logiciels
 
-- Visual Studio Code
-- Android Studio
 - Firebase
-- MongoDB
 - Git
+- Jira
 - Linux
+- Visual Studio Code
 
 ## CENTRES D’INTÉRÊT
 
 - Escalade (Voie, grande voie et bloc)
-- Slackline
+- Slackline & Highline
 - Grande randonnée, bivouac
 - Bricolage, DIY
