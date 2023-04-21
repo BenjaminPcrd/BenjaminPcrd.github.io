@@ -36,8 +36,7 @@
 
 ***Novembre 2022 - en cours***
 
-- Développement de l'outil "Backupta" (gestion de sauvegarde de configurations Okta)  
-- Développement sur Salesforce
+- Développement de l'outil "Backupta" (gestion de sauvegarde de configurations Okta)
 
 ### Animateur périscolaire Clermont-Ferrand
 
@@ -90,7 +89,7 @@ Application mobile pour noter les voies d'escalade réalisées et avoir des stat
 
 ### [FitChat](https://github.com/RGU-Computing/fitchat)
 
-Application mobile permettant d’aider les personnes ayant des douleurs chronique, a les soulager, en leur proposant des exercices en fonction de leur activité.  
+Application mobile permettant d’aider les personnes ayant des douleurs chronique, à les soulager, en leur proposant des exercices en fonction de leur activité.  
 **Technologies :** React-native, Google Fit API, Dialogflow API, Firebase
 
 ### [Attendr App & Dashboard](https://github.com/BenjaminPcrd)
@@ -127,7 +126,7 @@ Application mobile utilisant l’API de themoviedb.org permettant d’afficher d
 
 ## CENTRES D’INTÉRÊT
 
-- Escalade (Voie, grande voie et bloc)
+- Escalade (En salle, voie et grande voie)
 - Slackline & Highline
-- Grande randonnée, bivouac
+- Randonnée & bivouac
 - Bricolage, DIY
