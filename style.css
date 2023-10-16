@@ -48,7 +48,7 @@ span {
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 840px) {
     #cols {
         flex-direction: column;
     }
