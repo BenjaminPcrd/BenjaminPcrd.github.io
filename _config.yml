@@ -1,4 +1,3 @@
 title: Benjamin Picard
-include:
-  - cv-fr.md
-  - cv-en.md
+markdown: kramdown
+style: kjhealy
