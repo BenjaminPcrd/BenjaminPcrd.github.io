@@ -50,8 +50,8 @@
 
 **_Novembre 2022 - en cours_**
 
-- Développement de l'outil "Backupta" (sauvegardes et monitoring de tenants Okta et Auth0)
-  **Technologies :** React, AWS
+- Développement de l'outil "Backupta" (sauvegardes et monitoring de tenants Okta et Auth0).  
+  **Technologies :** React, NX, Tanstack, AWS
 
 ### Animateur périscolaire Clermont-Ferrand
 
@@ -63,14 +63,14 @@
 
 **_Octobre 2019 - Avril 2020_**
 
-- Développement d'une application mobile au sein d’une équipe
+- Développement d'une application mobile au sein d’une équipe.  
   **Technologies :** React Native, MongoDB et React.js
 
 ### Stage en entreprise Robert Gordon University, Aberdeen (UK)
 
 **_Avril - Juin 2019_**
 
-- Gestion de projet et développement d’applications mobiles
+- Gestion de projet et développement d’applications mobiles.  
   **Technologies :** React-native, Expo
 
 ### Animateur BAFA
@@ -103,22 +103,22 @@ Option Sciences de l’Ingénieur, spécialité Informatique et Sciences du Num�
 
 ### [Climbed](https://github.com/BenjaminPcrd/Climbed)
 
-Application mobile pour noter les voies d'escalade réalisées et avoir des statistiques.
+Application mobile pour noter les voies d'escalade réalisées et avoir des statistiques.  
 **Technologies :** React-native
 
 ### [FitChat](https://github.com/RGU-Computing/fitchat)
 
-Application mobile permettant d’aider les personnes ayant des douleurs chroniques, à les soulager, en leur proposant des exercices en fonction de leur activité.
+Application mobile permettant d’aider les personnes ayant des douleurs chroniques, à les soulager, en leur proposant des exercices en fonction de leur activité.  
 **Technologies :** React-native, Google Fit API, Dialogflow API, Firebase
 
 ### [Attendr App & Dashboard](https://github.com/BenjaminPcrd)
 
-Applications mobile et interface web, permettant aux professeurs de gérer la présence des élèves en classe.
+Applications mobile et interface web, permettant aux professeurs de gérer la présence des élèves en classe.  
 **Technologies :** React-native, React.js, MongoDb
 
 ### [TheMovieDB Search App](https://github.com/BenjaminPcrd/TmdbSearchApp)
 
-Application mobile utilisant l’API de themoviedb.org permettant d’afficher des informations sur les films et effectuer des recherches.
+Application mobile utilisant l’API de themoviedb.org permettant d’afficher des informations sur les films et effectuer des recherches.  
 **Technologies :** React-native, Expo
 
 ---
@@ -141,6 +141,7 @@ Application mobile utilisant l’API de themoviedb.org permettant d’afficher d
 ### Outils & logiciels
 
 - Git
+- AWS
 - Jira
 - Linux
 - VS Code

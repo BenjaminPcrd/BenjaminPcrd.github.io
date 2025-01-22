@@ -51,7 +51,7 @@
 **_November 2022 - Present_**
 
 - Developed the "Backupta" tool (backup and monitoring solution for Okta and Auth0 tenants).  
-  **Technologies:** React, AWS
+  **Technologies:** React, NX, Tanstack, AWS
 
 ### After-School Activity Leader - Clermont-Ferrand
 
@@ -142,6 +142,7 @@ Mobile app leveraging themoviedb.org API to display and search for movie details
 ### Tools & Software
 
 - Git
+- AWS
 - Jira
 - Linux
 - VS Code
